@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SMS_Sherlar</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sms_poems">SMS Poems</string>
+    <string name="new_ones">New ones</string>
+    <string name="love_poems">Love Poems</string>
+    <string name="miss_and_pain">Miss and Pain</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="family">Family</string>
+    <string name="friends">Friends</string>
+    <string name="jokes">Jokes</string>
+    <string name="not_found">Not found</string>
+    <string name="saved_poems">Saved Poems</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="favourites">Favourites</string>
+    <string name="new">new</string>
+</resources>
