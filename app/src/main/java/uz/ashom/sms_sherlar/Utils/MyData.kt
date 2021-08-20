@@ -1,6 +1,6 @@
-package Utils
+package uz.ashom.sms_sherlar.Utils
 
-import Model.PoemModel
+import uz.ashom.sms_sherlar.Model.PoemModel
 
 
 object MyData {

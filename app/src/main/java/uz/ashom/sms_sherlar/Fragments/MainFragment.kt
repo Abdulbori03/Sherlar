@@ -1,8 +1,8 @@
-package Fragments
+package uz.ashom.sms_sherlar.Fragments
 
-import Model.PoemModel
-import Utils.MyData
-import Utils.MySharedPreference
+import uz.ashom.sms_sherlar.Model.PoemModel
+import uz.ashom.sms_sherlar.Utils.MyData
+import uz.ashom.sms_sherlar.Utils.MySharedPreference
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater

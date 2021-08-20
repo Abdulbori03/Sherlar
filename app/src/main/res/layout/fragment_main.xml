@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightgray"
-    tools:context="Fragments.MainFragment">
+    tools:context="uz.ashom.sms_sherlar.Fragments.MainFragment">
 
     <TextView
         android:id="@+id/sms"
@@ -14,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
-        android:text="@string/sms_poems"
+        android:text="SMS Стихи"
         android:textColor="@color/black"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -58,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="@string/new_ones"
+                    android:text="@string/novi"
                     app:layout_constraintLeft_toRightOf="@id/news_logo"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,8 +81,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="constlayout"
-                >
+                app:layout_constraintTop_toBottomOf="constlayout">
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -118,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="@string/favourites"
+                    android:text="@string/izbrani"
                     android:textColor="@color/white"
                     app:layout_constraintLeft_toRightOf="@id/favourite_logo"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -178,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/love_poems"
+                    android:text="@string/love"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -212,7 +210,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/miss_and_pain"
+                    android:text="Промах и боль"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -257,7 +255,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/congratulations"
+                    android:text="Поздравляю"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -291,7 +289,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/family"
+                    android:text="@string/famili"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -336,7 +334,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/friends"
+                    android:text="Друзья"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -370,7 +368,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:text="@string/jokes"
+                    android:text="Юмористичный"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -385,36 +383,36 @@
         android:id="@+id/txt_new1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="new"
-        android:paddingRight="15dp"
-        android:paddingLeft="15dp"
-        android:paddingBottom="5sp"
-        android:textStyle="bold"
-        android:textSize="25sp"
         android:layout_marginLeft="15dp"
-        android:textColor="@color/white"
         android:background="@drawable/back_fon"
-        tools:ignore="MissingConstraints,NotSibling"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5sp"
+        android:text="new"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/linear1"
         app:layout_constraintLeft_toLeftOf="@+id/linear1"
         app:layout_constraintTop_toBottomOf="@+id/linear1"
-        app:layout_constraintBottom_toBottomOf="@+id/linear1"/>
+        tools:ignore="MissingConstraints,NotSibling" />
 
     <TextView
         android:id="@+id/txt_new2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="new"
-        android:textSize="25sp"
-        android:textColor="@color/white"
-        android:background="@drawable/back_fon"
-        android:paddingRight="15dp"
-        android:paddingLeft="15dp"
-        android:paddingBottom="5sp"
         android:layout_marginLeft="20dp"
-        tools:ignore="MissingConstraints,NotSibling"
+        android:background="@drawable/back_fon"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5sp"
+        android:text="new"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linear1"
         app:layout_constraintLeft_toRightOf="@+id/txt_new1"
         app:layout_constraintRight_toRightOf="@+id/linear1"
         app:layout_constraintTop_toBottomOf="@+id/linear1"
-        app:layout_constraintBottom_toBottomOf="@+id/linear1"/>
+        tools:ignore="MissingConstraints,NotSibling" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

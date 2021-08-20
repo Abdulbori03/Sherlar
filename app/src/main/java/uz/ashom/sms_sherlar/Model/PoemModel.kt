@@ -1,4 +1,4 @@
-package Model
+package uz.ashom.sms_sherlar.Model
 
 import java.io.Serializable
 

@@ -15,4 +15,8 @@
     <string name="add_to_favourites">Add to Favourites</string>
     <string name="favourites">Favourites</string>
     <string name="new">new</string>
+    <string name="novi">Новые</string>
+    <string name="izbrani">Избранное</string>
+    <string name="love">любовные поэмы</string>
+    <string name="famili">Семья</string>
 </resources>

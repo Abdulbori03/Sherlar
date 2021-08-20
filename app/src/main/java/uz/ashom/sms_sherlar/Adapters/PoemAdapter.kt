@@ -1,8 +1,8 @@
-package Adapters
+package uz.ashom.sms_sherlar.Adapters
 
-import Model.PoemModel
-import Utils.MyData
-import Utils.MySharedPreference
+import uz.ashom.sms_sherlar.Model.PoemModel
+import uz.ashom.sms_sherlar.Utils.MyData
+import uz.ashom.sms_sherlar.Utils.MySharedPreference
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
